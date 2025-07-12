@@ -11,32 +11,28 @@ This repository contains several mini projects that demonstrate different approa
 
 ## 🚀 Projects
 
-### 1. Ollama Using Requests (`ollama_using_requests/`)
+### 1. [Ollama Using Requests](./ollama_using_requests/README.md)
 
 A simple demonstration of how to interact with Ollama's API using raw HTTP requests.
 
-**Features:**
-- Direct API calls to Ollama using the `requests` library
-- Non-streaming chat completion
-- Uses LLaMA 3.2 model for business AI applications
+- **Location**: `ollama_using_requests/`
+- **Focus**: Direct API integration using the `requests` library
+- **Model**: LLaMA 3.2 for business AI applications
 
-**Usage:**
+**Quick Start:**
 ```bash
 python ollama_using_requests/ollama_requests.py
 ```
 
-### 2. Ollama Website Summarizer (`ollama_website_summarizer/`)
+### 2. [Ollama Website Summarizer](./ollama_website_summarizer/README.md)
 
 An intelligent website content summarizer that scrapes web pages and provides concise summaries using AI.
 
-**Features:**
-- Web scraping with BeautifulSoup
-- Content cleaning (removes scripts, styles, images, inputs)
-- AI-powered summarization using Ollama
-- Markdown-formatted output
-- Handles news and announcements
+- **Location**: `ollama_website_summarizer/`
+- **Focus**: Web scraping and AI-powered content summarization
+- **Features**: BeautifulSoup parsing, content cleaning, markdown output
 
-**Usage:**
+**Quick Start:**
 ```bash
 python ollama_website_summarizer/ollama_webiste_summarizer.py
 ```
@@ -125,8 +121,10 @@ mini_projects/
 ├── pyproject.toml
 ├── main.py
 ├── ollama_using_requests/
+│   ├── README.md
 │   └── ollama_requests.py
 └── ollama_website_summarizer/
+    ├── README.md
     └── ollama_webiste_summarizer.py
 ```
 
