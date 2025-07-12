@@ -8,3 +8,10 @@ wheels/
 
 # Virtual environments
 .venv
+
+# ENV
+.env
+*.env.local
+*.env.production
+*.env.development
+*.env
