@@ -11,30 +11,30 @@ This repository contains several mini projects that demonstrate different approa
 
 ## 🚀 Projects
 
-### 1. [Ollama Using Requests](./ollama_using_requests/README.md)
+### 1. [Ollama Using Requests](./day_1_ollama_using_requests/README.md)
 
 A simple demonstration of how to interact with Ollama's API using raw HTTP requests.
 
-- **Location**: `ollama_using_requests/`
+- **Location**: `day_1_ollama_using_requests/`
 - **Focus**: Direct API integration using the `requests` library
 - **Model**: LLaMA 3.2 for business AI applications
 
 **Quick Start:**
 ```bash
-python ollama_using_requests/ollama_requests.py
+python day_1_ollama_using_requests/ollama_requests.py
 ```
 
-### 2. [Ollama Website Summarizer](./ollama_website_summarizer/README.md)
+### 2. [Ollama Website Summarizer](./day_2_ollama_website_summarizer/README.md)
 
 An intelligent website content summarizer that scrapes web pages and provides concise summaries using AI.
 
-- **Location**: `ollama_website_summarizer/`
+- **Location**: `day_2_ollama_website_summarizer/`
 - **Focus**: Web scraping and AI-powered content summarization
 - **Features**: BeautifulSoup parsing, content cleaning, markdown output
 
 **Quick Start:**
 ```bash
-python ollama_website_summarizer/ollama_webiste_summarizer.py
+python day_2_ollama_website_summarizer/ollama_webiste_summarizer.py
 ```
 
 ## 🛠️ Prerequisites
@@ -88,12 +88,12 @@ ollama serve
 
 2. Test the basic Ollama integration:
 ```bash
-python ollama_using_requests/ollama_requests.py
+python day_1_ollama_using_requests/ollama_requests.py
 ```
 
 3. Try the website summarizer:
 ```bash
-python ollama_website_summarizer/ollama_webiste_summarizer.py
+python day_2_ollama_website_summarizer/ollama_webiste_summarizer.py
 ```
 
 ## 🔧 Configuration
@@ -120,10 +120,10 @@ mini_projects/
 ├── LICENSE
 ├── pyproject.toml
 ├── main.py
-├── ollama_using_requests/
+├── day_1_ollama_using_requests/
 │   ├── README.md
 │   └── ollama_requests.py
-└── ollama_website_summarizer/
+└── day_2_ollama_website_summarizer/
     ├── README.md
     └── ollama_webiste_summarizer.py
 ```
