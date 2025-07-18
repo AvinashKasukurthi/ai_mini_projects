@@ -8,6 +8,7 @@ This repository contains several mini projects that demonstrate different approa
 
 1. **Ollama Using Requests** - Direct API integration with Ollama using HTTP requests
 2. **Ollama Website Summarizer** - Web scraping and content summarization using Ollama
+3. **AI Brochure Generator** - Multi-page web scraping and intelligent brochure generation
 
 ## 🚀 Projects
 
@@ -35,6 +36,19 @@ An intelligent website content summarizer that scrapes web pages and provides co
 **Quick Start:**
 ```bash
 python day_2_ollama_website_summarizer/ollama_webiste_summarizer.py
+```
+
+### 3. [AI Brochure Generator](./day_3_brochure_using_ai/README.md)
+
+An intelligent brochure generator that creates professional company brochures by analyzing website content using AI and streaming markdown output.
+
+- **Location**: `day_3_brochure_using_ai/`
+- **Focus**: Multi-page web scraping, intelligent link analysis, and AI-powered brochure generation
+- **Features**: Rich terminal output, streaming markdown, real-time generation
+
+**Quick Start:**
+```bash
+python day_3_brochure_using_ai/brochure_ai.py
 ```
 
 ## 🛠️ Prerequisites
@@ -78,6 +92,8 @@ pip install -r requirements.txt
 - **ollama** (>=0.5.1) - Official Ollama Python client
 - **requests** (>=2.32.4) - HTTP library for API calls
 - **beautifulsoup4** (>=0.0.2) - HTML parsing for web scraping
+- **rich** (>=14.0.0) - Terminal styling and markdown rendering
+- **python-dotenv** (>=0.9.9) - Environment variable management
 
 ## 🏃‍♂️ Quick Start
 
@@ -94,6 +110,11 @@ python day_1_ollama_using_requests/ollama_requests.py
 3. Try the website summarizer:
 ```bash
 python day_2_ollama_website_summarizer/ollama_webiste_summarizer.py
+```
+
+4. Generate an AI brochure:
+```bash
+python day_3_brochure_using_ai/brochure_ai.py
 ```
 
 ## 🔧 Configuration
@@ -123,9 +144,12 @@ mini_projects/
 ├── day_1_ollama_using_requests/
 │   ├── README.md
 │   └── ollama_requests.py
-└── day_2_ollama_website_summarizer/
+├── day_2_ollama_website_summarizer/
+│   ├── README.md
+│   └── ollama_webiste_summarizer.py
+└── day_3_brochure_using_ai/
     ├── README.md
-    └── ollama_webiste_summarizer.py
+    └── brochure_ai.py
 ```
 
 ## 🎯 Use Cases
@@ -134,6 +158,8 @@ mini_projects/
 - **Web Content Analysis**: Automatically summarize web articles and pages
 - **API Development**: Learn HTTP-based AI API interactions
 - **Content Processing**: Extract and process web content for AI analysis
+- **Business Intelligence**: Generate professional brochures and company analysis
+- **Marketing Automation**: Create compelling content for sales and recruitment
 
 ## 🤝 Contributing
 
