@@ -1,4 +1,4 @@
-# Mini Projects - AI Agent Course
+# Mini Projects - LLM's and AI Agent Course
 
 A collection of mini projects exploring AI integration using Ollama, focusing on practical applications of local language models.
 
