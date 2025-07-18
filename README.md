@@ -9,6 +9,7 @@ This repository contains several mini projects that demonstrate different approa
 1. **Ollama Using Requests** - Direct API integration with Ollama using HTTP requests
 2. **Ollama Website Summarizer** - Web scraping and content summarization using Ollama
 3. **AI Brochure Generator** - Multi-page web scraping and intelligent brochure generation
+4. **Frontier Models APIs** - Integration and comparison of leading AI models (OpenAI, Anthropic, Google)
 
 ## 🚀 Projects
 
@@ -49,6 +50,19 @@ An intelligent brochure generator that creates professional company brochures by
 **Quick Start:**
 ```bash
 python day_3_brochure_using_ai/brochure_ai.py
+```
+
+### 4. [Frontier Models APIs](./day_4_frontier_models_apis/README.md)
+
+A comprehensive demonstration of integrating and comparing responses from leading AI frontier models including OpenAI's GPT models, Anthropic's Claude, and Google's Gemini.
+
+- **Location**: `day_4_frontier_models_apis/`
+- **Focus**: Multi-provider AI API integration and response comparison
+- **Features**: OpenAI GPT models, Anthropic Claude, Google Gemini, API key management
+
+**Quick Start:**
+```bash
+python day_4_frontier_models_apis/frontier_model_apis.py
 ```
 
 ## 🛠️ Prerequisites
@@ -117,6 +131,11 @@ python day_2_ollama_website_summarizer/ollama_webiste_summarizer.py
 python day_3_brochure_using_ai/brochure_ai.py
 ```
 
+5. Compare frontier AI models:
+```bash
+python day_4_frontier_models_apis/frontier_model_apis.py
+```
+
 ## 🔧 Configuration
 
 ### Model Configuration
@@ -147,9 +166,12 @@ mini_projects/
 ├── day_2_ollama_website_summarizer/
 │   ├── README.md
 │   └── ollama_webiste_summarizer.py
-└── day_3_brochure_using_ai/
+├── day_3_brochure_using_ai/
+│   ├── README.md
+│   └── brochure_ai.py
+└── day_4_frontier_models_apis/
     ├── README.md
-    └── brochure_ai.py
+    └── frontier_model_apis.py
 ```
 
 ## 🎯 Use Cases
