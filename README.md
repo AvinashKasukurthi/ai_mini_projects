@@ -4,66 +4,15 @@ A collection of mini projects exploring AI integration using Ollama, focusing on
 
 ## 📋 Overview
 
-This repository contains several mini projects that demonstrate different approaches to working with AI models:
-
-1. **Ollama Using Requests** - Direct API integration with Ollama using HTTP requests
-2. **Ollama Website Summarizer** - Web scraping and content summarization using Ollama
-3. **AI Brochure Generator** - Multi-page web scraping and intelligent brochure generation
-4. **Frontier Models APIs** - Integration and comparison of leading AI models (OpenAI, Anthropic, Google)
+A collection of mini projects exploring AI integration using Ollama and frontier AI models, focusing on practical applications from basic API integration to advanced multi-model conversations.
 
 ## 🚀 Projects
 
-### 1. [Ollama Using Requests](./day_1_ollama_using_requests/README.md)
-
-A simple demonstration of how to interact with Ollama's API using raw HTTP requests.
-
-- **Location**: `day_1_ollama_using_requests/`
-- **Focus**: Direct API integration using the `requests` library
-- **Model**: LLaMA 3.2 for business AI applications
-
-**Quick Start:**
-```bash
-python day_1_ollama_using_requests/ollama_requests.py
-```
-
-### 2. [Ollama Website Summarizer](./day_2_ollama_website_summarizer/README.md)
-
-An intelligent website content summarizer that scrapes web pages and provides concise summaries using AI.
-
-- **Location**: `day_2_ollama_website_summarizer/`
-- **Focus**: Web scraping and AI-powered content summarization
-- **Features**: BeautifulSoup parsing, content cleaning, markdown output
-
-**Quick Start:**
-```bash
-python day_2_ollama_website_summarizer/ollama_webiste_summarizer.py
-```
-
-### 3. [AI Brochure Generator](./day_3_brochure_using_ai/README.md)
-
-An intelligent brochure generator that creates professional company brochures by analyzing website content using AI and streaming markdown output.
-
-- **Location**: `day_3_brochure_using_ai/`
-- **Focus**: Multi-page web scraping, intelligent link analysis, and AI-powered brochure generation
-- **Features**: Rich terminal output, streaming markdown, real-time generation
-
-**Quick Start:**
-```bash
-python day_3_brochure_using_ai/brochure_ai.py
-```
-
-### 4. [Frontier Models APIs](./day_4_frontier_models_apis/README.md)
-
-A comprehensive demonstration of integrating and comparing responses from leading AI frontier models including OpenAI's GPT models, Anthropic's Claude, and Google's Gemini.
-
-- **Location**: `day_4_frontier_models_apis/`
-- **Focus**: Multi-provider AI API integration and response comparison
-- **Features**: OpenAI GPT models, Anthropic Claude, Google Gemini, API key management
-
-**Quick Start:**
-```bash
-python day_4_frontier_models_apis/frontier_model_apis.py
-```
+1. **[Ollama Using Requests](./day_1_ollama_using_requests/README.md)** - Direct API integration with Ollama using HTTP requests (`python day_1_ollama_using_requests/ollama_requests.py`)
+2. **[Ollama Website Summarizer](./day_2_ollama_website_summarizer/README.md)** - Web scraping and AI-powered content summarization (`python day_2_ollama_website_summarizer/ollama_webiste_summarizer.py`)
+3. **[AI Brochure Generator](./day_3_brochure_using_ai/README.md)** - Multi-page web scraping and intelligent brochure generation (`python day_3_brochure_using_ai/brochure_ai.py`)
+4. **[Frontier Models APIs](./day_4_frontier_models_apis/README.md)** - Multi-provider AI API integration and response comparison (`python day_4_frontier_models_apis/frontier_model_apis.py`)
+5. **[Adversarial Conversation](./day_5_adversarial_conversation/README.md)** - Entertaining AI dialogue between contrasting GPT and Claude personalities (`python day_5_adversarial_conversation/adversarial_conversation.py`)
 
 ## 🛠️ Prerequisites
 
@@ -108,6 +57,8 @@ pip install -r requirements.txt
 - **beautifulsoup4** (>=0.0.2) - HTML parsing for web scraping
 - **rich** (>=14.0.0) - Terminal styling and markdown rendering
 - **python-dotenv** (>=0.9.9) - Environment variable management
+- **openai** (>=1.0.0) - OpenAI API client for GPT models
+- **anthropic** (>=0.8.1) - Anthropic API client for Claude models
 
 ## 🏃‍♂️ Quick Start
 
@@ -134,6 +85,11 @@ python day_3_brochure_using_ai/brochure_ai.py
 5. Compare frontier AI models:
 ```bash
 python day_4_frontier_models_apis/frontier_model_apis.py
+```
+
+6. Watch adversarial AI conversation:
+```bash
+python day_5_adversarial_conversation/adversarial_conversation.py
 ```
 
 ## 🔧 Configuration
@@ -169,9 +125,12 @@ mini_projects/
 ├── day_3_brochure_using_ai/
 │   ├── README.md
 │   └── brochure_ai.py
-└── day_4_frontier_models_apis/
+├── day_4_frontier_models_apis/
+│   ├── README.md
+│   └── frontier_model_apis.py
+└── day_5_adversarial_conversation/
     ├── README.md
-    └── frontier_model_apis.py
+    └── adversarial_conversation.py
 ```
 
 ## 🎯 Use Cases
