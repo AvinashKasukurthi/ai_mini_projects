@@ -9,6 +9,7 @@ dependencies = [
     "bs4>=0.0.2",
     "dotenv>=0.9.9",
     "google-genai>=1.26.0",
+    "gradio>=5.38.2",
     "ollama>=0.5.1",
     "openai>=1.97.0",
     "requests>=2.32.4",

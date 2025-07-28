@@ -1,6 +1,5 @@
 from openai import OpenAI
 import anthropic
-import os
 from dotenv import load_dotenv
 
 load_dotenv(override=True)

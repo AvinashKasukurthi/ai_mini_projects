@@ -13,6 +13,7 @@ A collection of mini projects exploring AI integration using Ollama and frontier
 3. **[AI Brochure Generator](./day_3_brochure_using_ai/README.md)** - Multi-page web scraping and intelligent brochure generation (`python day_3_brochure_using_ai/brochure_ai.py`)
 4. **[Frontier Models APIs](./day_4_frontier_models_apis/README.md)** - Multi-provider AI API integration and response comparison (`python day_4_frontier_models_apis/frontier_model_apis.py`)
 5. **[Adversarial Conversation](./day_5_adversarial_conversation/README.md)** - Entertaining AI dialogue between contrasting GPT and Claude personalities (`python day_5_adversarial_conversation/adversarial_conversation.py`)
+6. **[Gradio UI](./day_6_gradio_ui/README.md)** - Web-based interface for comparing multiple AI models with streaming responses (`python day_6_gradio_ui/gradio_ui.py`)
 
 ## 🛠️ Prerequisites
 
@@ -59,6 +60,8 @@ pip install -r requirements.txt
 - **python-dotenv** (>=0.9.9) - Environment variable management
 - **openai** (>=1.0.0) - OpenAI API client for GPT models
 - **anthropic** (>=0.8.1) - Anthropic API client for Claude models
+- **google-generativeai** (>=0.8.0) - Google AI client for Gemini models
+- **gradio** (>=4.0.0) - Web interface framework for AI applications
 
 ## 🏃‍♂️ Quick Start
 
@@ -90,6 +93,11 @@ python day_4_frontier_models_apis/frontier_model_apis.py
 6. Watch adversarial AI conversation:
 ```bash
 python day_5_adversarial_conversation/adversarial_conversation.py
+```
+
+7. Launch Gradio web interface:
+```bash
+python day_6_gradio_ui/gradio_ui.py
 ```
 
 ## 🔧 Configuration
@@ -128,9 +136,12 @@ mini_projects/
 ├── day_4_frontier_models_apis/
 │   ├── README.md
 │   └── frontier_model_apis.py
-└── day_5_adversarial_conversation/
+├── day_5_adversarial_conversation/
+│   ├── README.md
+│   └── adversarial_conversation.py
+└── day_6_gradio_ui/
     ├── README.md
-    └── adversarial_conversation.py
+    └── gradio_ui.py
 ```
 
 ## 🎯 Use Cases
