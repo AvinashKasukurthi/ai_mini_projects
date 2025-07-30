@@ -14,6 +14,7 @@ A collection of mini projects exploring AI integration using Ollama and frontier
 4. **[Frontier Models APIs](./day_4_frontier_models_apis/README.md)** - Multi-provider AI API integration and response comparison (`python day_4_frontier_models_apis/frontier_model_apis.py`)
 5. **[Adversarial Conversation](./day_5_adversarial_conversation/README.md)** - Entertaining AI dialogue between contrasting GPT and Claude personalities (`python day_5_adversarial_conversation/adversarial_conversation.py`)
 6. **[Gradio UI](./day_6_gradio_ui/README.md)** - Web-based interface for comparing multiple AI models with streaming responses (`python day_6_gradio_ui/gradio_ui.py`)
+7. **[Brochure Gradio UI](./day_7_brochure_gradio_ui/README.md)** - Web interface for AI-powered company brochure generation with intelligent content analysis (`python day_7_brochure_gradio_ui/brochure_gradio_ui.py`)
 
 ## 🛠️ Prerequisites
 
@@ -100,6 +101,11 @@ python day_5_adversarial_conversation/adversarial_conversation.py
 python day_6_gradio_ui/gradio_ui.py
 ```
 
+8. Generate company brochures with web UI:
+```bash
+python day_7_brochure_gradio_ui/brochure_gradio_ui.py
+```
+
 ## 🔧 Configuration
 
 ### Model Configuration
@@ -139,9 +145,12 @@ mini_projects/
 ├── day_5_adversarial_conversation/
 │   ├── README.md
 │   └── adversarial_conversation.py
-└── day_6_gradio_ui/
+├── day_6_gradio_ui/
+│   ├── README.md
+│   └── gradio_ui.py
+└── day_7_brochure_gradio_ui/
     ├── README.md
-    └── gradio_ui.py
+    └── brochure_gradio_ui.py
 ```
 
 ## 🎯 Use Cases
