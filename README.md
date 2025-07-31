@@ -16,6 +16,7 @@ A collection of mini projects exploring AI integration using Ollama and frontier
 6. **[Gradio UI](./day_6_gradio_ui/README.md)** - Web-based interface for comparing multiple AI models with streaming responses (`python day_6_gradio_ui/gradio_ui.py`)
 7. **[Brochure Gradio UI](./day_7_brochure_gradio_ui/README.md)** - Web interface for AI-powered company brochure generation with intelligent content analysis (`python day_7_brochure_gradio_ui/brochure_gradio_ui.py`)
 8. **[Gradio Chat UI](./day_8_gradio_chat_ui/README.md)** - Interactive chat interface with streaming GPT-4o-mini responses and conversation history (`python day_8_gradio_chat_ui/gradio_chat_ui.py`)
+9. **[Airline AI Assistant](./day_9_airline_ai_assistant/README.md)** - Intelligent airline customer service assistant with function calling for ticket price inquiries (`python day_9_airline_ai_assistant/airline_ai_assistant.py`)
 
 ## 🛠️ Prerequisites
 
@@ -112,6 +113,11 @@ python day_7_brochure_gradio_ui/brochure_gradio_ui.py
 python day_8_gradio_chat_ui/gradio_chat_ui.py
 ```
 
+10. Try the airline AI assistant:
+```bash
+python day_9_airline_ai_assistant/airline_ai_assistant.py
+```
+
 ## 🔧 Configuration
 
 ### Model Configuration
@@ -157,9 +163,12 @@ mini_projects/
 ├── day_7_brochure_gradio_ui/
 │   ├── README.md
 │   └── brochure_gradio_ui.py
-└── day_8_gradio_chat_ui/
+├── day_8_gradio_chat_ui/
+│   ├── README.md
+│   └── gradio_chat_ui.py
+└── day_9_airline_ai_assistant/
     ├── README.md
-    └── gradio_chat_ui.py
+    └── airline_ai_assistant.py
 ```
 
 ## 🎯 Use Cases
